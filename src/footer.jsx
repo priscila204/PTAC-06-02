@@ -1,11 +1,7 @@
-// Footer.jsx
-import React from 'react';
-
-export default function Footer() {
+export default function Footer (){ 
   return (
-    <footer>
-      <p>priscila</p>
-    </footer>
+      <footer>
+          <h2>priscila</h2>
+      </footer>
   );
-};
-
+}

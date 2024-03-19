@@ -1,11 +1,34 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import Footer from './footer.jsx
+import { useState } from "react";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-    <Footer />
-  </React.StrictMode>,
-)
+export default function Main() {
+    const [nome, setNome] = useState("");
+    const [telefone, setTelefone] = useState("");
+
+    return (
+        <main>
+            <form>
+                
+    <label htmlFor="nome">Nome:</label>
+                <input
+                   
+          type="text"
+          name="nome"
+          id="nome"
+         value={nome}
+       onChange={(event) => setNome(event.target.value)}
+                />
+
+      <label htmlFor="telefone">Telefone:</label>
+      <input
+      type="tel"
+      name="telefone"
+      id="telefone"
+     value={telefone}
+       onChange={(event) => setTelefone(event.target.value)}
+                />
+
+                <button type="submit">Salvar</button>
+            </form>
+        </main>
+    );
+}

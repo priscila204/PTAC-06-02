@@ -1,14 +1,18 @@
+import Header from "./Components/Header.jsx";
+import Footer from "./Components/Footer.jsx";
+import Main from "./Components/Main.jsx";
+
+import "./globas.css"
+
+
 export default function App() {
+  return (
 
-  const nome = "João";
-  const sobreNome = "Santos";
-
-  return(
     <div>
-        <h1>Hello World</h1>
-        <p>Desenvolvido por: {nome}</p>
-    </div>  
+
+      <Header />
+      <Main/>
+      <Footer />
+    </div>
   );
-
-
 }
