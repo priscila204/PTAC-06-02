@@ -65,3 +65,19 @@ header{
     button:hover {
         background-color: rgb(3, 5, 145);
     }
+
+    .cabeçalho {
+        height:  100px;
+        background-color:  rgb( 0 , 136 , 255 );
+        width:  40px;
+        color :  rgb( 115 , 3 , 160 );  
+        border-bottom:  2px ;
+        }
+    .rodape {
+        position : absoluta;
+        flood-color :  0 ;
+         height:  48px ;
+        background-color:  rgb( 104 ,  3 ,  145 );
+        width:  100% ;
+        text-align: center;
+        }
