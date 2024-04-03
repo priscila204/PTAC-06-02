@@ -28,7 +28,7 @@ export default function Main() {
                 />
             {telefone}
            <label htmlFor="c
-         PF">CPF:</label>
+         ">CPF:</label>
           <imput
           type="number"
           Cpf="" id=""
@@ -67,7 +67,7 @@ return(
            {nome}
 
            <label htmlFor="NumeroTELFONE">N. TELEFONE:</label>
-           {TELEFONE}
+           {}
 
            <input type="text" Numero-CPF=""  id="CPF" 
            onChange={(event) => setCpf(event.target.value)}/>

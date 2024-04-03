@@ -1,7 +1,7 @@
 export default function Footer (){ 
   return (
-      <footer>
-          <h2>priscila</h2>
+      <footer className="rodape">
+          <h2>Seja bem Vindo</h2>
       </footer>
   );
 }

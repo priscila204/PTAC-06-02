@@ -1,18 +1,15 @@
-import Header from "./Components/Header.jsx";
-import Footer from "./Components/Footer.jsx";
-import Main from "./Components/Main.jsx";
-
-import "./globas.css"
-
-
+import Header from "./Componentes/header";
+import Footer from "./Componentes/footer";
+import Destin from "./Componentes/destin";
+import "./global.css"
 export default function App() {
   return (
 
     <div>
 
-      <Header />
-      <Main/>
-      <Footer />
+      <Header></Header>
+    <Destin></Destin>
+      <Footer></Footer>
     </div>
   );
 }
