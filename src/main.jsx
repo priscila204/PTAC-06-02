@@ -26,9 +26,51 @@ export default function Main() {
      value={telefone}
        onChange={(event) => setTelefone(event.target.value)}
                 />
-
-                <button type="submit">Salvar</button>
+            {telefone}
+           <label htmlFor="c
+         PF">CPF:</label>
+          <imput
+          type="number"
+          Cpf="" id=""
+          onChange={(event)=> setCpf(event.target.event)}
+          />
+          {CPF}
+                   <button type="submit">Salvar</button>
             </form>
         </main>
     );
 }
+
+ event.preventDefault();
+
+alert("olá")
+
+setListaContatos([...listaContatos,
+
+{
+    nomeSalvo: nome,
+    telefoneSalvo: telefone,
+
+}
+
+
+]);
+
+};
+
+console.table (listaContatos);
+
+return(
+<main>
+       < form action="" onSubmit={registrar}>
+       < label htmlFor="nome">Nome: </label> <in 
+           {nome}
+
+           <label htmlFor="NumeroTELFONE">N. TELEFONE:</label>
+           {TELEFONE}
+
+           <input type="text" Numero-CPF=""  id="CPF" 
+           onChange={(event) => setCpf(event.target.value)}/>
+           {CPF}
+ 
+
